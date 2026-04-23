@@ -260,7 +260,7 @@ LED_Update(mvN);
 
     /*ADXL345*/
     accel_ok = (ADXL345_Read(&ax, &ay, &az) == HAL_OK);
-
+//OI
     /*Serial */
     if (accel_ok) {
     if (s_mode == MODE_RACE) {
